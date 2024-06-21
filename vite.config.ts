@@ -12,6 +12,21 @@ export default defineConfig({
     }),
     react(),
   ],
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      output: {
+        entryFileNames: '[name].js',
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name == 'style.css') {
+            return 'styles.css'
+          }
+          return assetInfo.name || 'assets/[name].[ext]'
+        },
+      },
+    },
+  },
+
   resolve: {
     alias: {
       src: path.resolve(__dirname, './src'),

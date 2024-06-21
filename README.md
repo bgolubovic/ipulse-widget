@@ -4,14 +4,12 @@ Choosing a technology stack is a very subjective matter, if you happen to like u
 
 ## Run
 
-
 ```sh
 yarn
 yarn dev
 ```
 
 We prefer `Yarn` as package manager, If you want to use `pnpm` or `npm`, feel free to use
-
 
 ## Tech Stack
 
@@ -30,9 +28,7 @@ We prefer `Yarn` as package manager, If you want to use `pnpm` or `npm`, feel fr
 - [prettier](https://prettier.io/)
 - [svgr](https://react-svgr.com/)
 - [editorconfig](https://editorconfig.org/)
-- [husky](https://typicode.github.io/husky/#/)/[lint-staged](https://github.com/okonet/lint-staged)
 - [commitlint](https://commitlint.js.org/)
-
 
 ## Project Structure
 
@@ -54,12 +50,11 @@ src
 
 ## Deploy
 
-[Cloudflare Pages](https://pages.cloudflare.com/) is my first option to deploy React App，follow [this documentation](https://developers.cloudflare.com/pages/framework-guides/deploy-a-react-site/#deploying-with-cloudflare-pages) to deploy your site. Don't forget build directory should	choose `dist`
+[Cloudflare Pages](https://pages.cloudflare.com/) is my first option to deploy React App，follow [this documentation](https://developers.cloudflare.com/pages/framework-guides/deploy-a-react-site/#deploying-with-cloudflare-pages) to deploy your site. Don't forget build directory should choose `dist`
 
 [Vercel](https://pages.cloudflare.com/) is a good option too，Go to [Vercel](https://vercel.com/new) and link to your Git Repo
 
 Enjoy building.
-
 
 ## Related
 
